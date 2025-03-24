@@ -149,3 +149,73 @@
 #     print('The Sides form a valid triangle')
 # else:
 #     print('The sides donot form a valid triangle')
+
+
+#print all numbers from 1 to 100
+#for i in range(1,101):
+#   print(i)
+    
+#write a program to print sum of first n natural numbers 
+# N = int(input('Enter a number:'))
+# if N<0:
+#     print('Enter a valid number')
+# else:
+#     sum = (N*(N+1))/2
+#     print(sum)
+
+# Q :print all the even numbers between 1 and 50
+# num = 1
+# while num<=50:
+#     if num%2==0:
+#         print(num)
+#     num+=1
+
+
+# To display the multiplication table of a given number.first 20
+# A = int(input('Enter a number'))
+# product = 1
+# for j in range(1,21):
+#         product = A * j
+#         print(A ,'*', j ,'=', product)
+
+
+#fibonacci series
+# a = 0
+# b = 1
+# c = 0
+# num = 0  
+# print(a)
+# print(b)
+# for i in range(2,11):
+#     c = a + b
+#     print(c)
+#     a=b
+#     b=c
+#     num+=1
+
+#check if the given number is prime or not
+
+# A = True
+# num = int(input('enter a number:'))
+# for i in range(2,num):
+#     if num % i == 0:
+#         print('The given number is not a prime')
+#         A = False
+#         break
+# else:
+#     if A:
+#         print('The given number is prime')
+
+#factorial using while loop 
+# num = 1
+# fact=1
+# while (num<=5):
+#     fact = fact*num
+#     print(fact)  
+#     num+=1  
+
+
+# Numbers that are divisible by both 3 & 5
+# for i in range(1,101):
+#     if i%3==0 and i%5==0:
+#         print(i)
