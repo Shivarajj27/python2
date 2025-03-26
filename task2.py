@@ -219,3 +219,30 @@
 # for i in range(1,101):
 #     if i%3==0 and i%5==0:
 #         print(i)
+
+
+
+# A = int(input('enter a number'))
+# for i in range (1, A+1):
+#     for j in range(1,11):
+#         multiply = i * j
+#         print(i ,'*', j ,'=', multiply)
+#     print(------**-------)
+
+
+# reverse number
+A = 54312
+reverse=0
+count = 0
+sum1=0
+while A>0:
+    rem = A%10
+    # print(rem)
+    reverse = reverse*10+rem
+    if rem%3==0:
+        print(rem)
+    sum1=sum1+rem
+    A = A//10
+    count=count+1
+print(sum1)
+print(count)
